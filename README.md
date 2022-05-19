@@ -39,7 +39,15 @@ En este dashboard se muestran las rutas implementadas y una forma de interactuar
 
 El modelo de análisis fue implementado con *sklearn*. Se trata de un modelo simple que análisas la bolsa de palabras de la reseña y la relaciona con la calificación obtenida. De esta forma, se puede obtener un análisis sobre la connotación del texto y se puede predecir la calificación que s epodría obtener. El modelo arroja una precisión del **80%**, sin embargo esta predicción se puede mejorar. Además, podría ser comparada con otros modelos y otro tipo de métricas para obtener un mejor desmepeño.
 
+### Despliege en Heroku
 
+LA API implementada mediante *fastAPI* se desplegó en **Heroku**. De esta forma, se puede comprobar la funcionalidad sin la necesiad de realizar una instalación local. La aplicación se puede revisar en: https://calatestjcmb.herokuapp.com/ la página principal despliega un mensaje a modo de bienvenida.
+
+De la misma forma que en su versión local, la app depslegada en **Heroku** permite tener acceso al dashboard para comprobar las rutas. 
+````
+https://calatestjcmb.herokuapp.com/docs
+````
+De esta forma, al ingresar al [dashboard](https://calatestjcmb.herokuapp.com/docs) se puede interactuar con los dos eventos.
 
 
 
